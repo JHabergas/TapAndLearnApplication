@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    tools:context="com.example.asus.alphaapp.HomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="310dp"
+            android:layout_height="220dp"
+            android:contentDescription="@string/title_app"
+            app:srcCompat="@drawable/title_alpha_v3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buttonsMenuLayout"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleLayout"
+        android:layout_centerInParent="true"
+        >
+
+        <Button
+            android:id="@+id/playBtn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:background="@drawable/play_button"
+            android:padding="10dp"
+            android:text="Learn!"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/playBtn"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/exit_button"
+            android:padding="10dp"
+            android:text="Exit"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/changeBackgroundBtn"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/change_theme_button"
+            android:text="@string/changeBG"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

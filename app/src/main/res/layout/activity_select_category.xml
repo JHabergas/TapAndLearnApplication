@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:background="@color/category"
+        android:id="@+id/categoryTitleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.example.asus.alphaapp.MyTextView
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:textSize="25sp"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/hr"
+        android:layout_below="@id/categoryTitleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/drop_shadow" />
+
+    <LinearLayout
+        android:background="@drawable/bg_croppedx"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:id="@+id/categoryListLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hr"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/tapspeakBtn"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:background="@drawable/play_button"
+            android:padding="10dp"
+            android:text="@string/tapspeak"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/tapshowBtn"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:background="@drawable/play_button"
+            android:padding="10dp"
+            android:text="@string/tapshow"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/backBtn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/exit_button"
+            android:padding="10dp"
+            android:text="@string/back"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tap&amp;Learn</string>
+    <string name="title_app">Tap&amp;Learn</string>
+    <string name="playBtn">Play Button</string>
+    <string name="play">Learn!</string>
+    <string name="exit">Exit</string>
+    <string name="category">Select Category</string>
+    <string name="tapspeak">Tap&amp;Speak</string>
+    <string name="tapshow">Tap&amp;Show</string>
+    <string name="back">back</string>
+    <string name="backTapShow">speak</string>
+    <string name="changeBG">change me!</string>
+
+    <array name="image">
+        <item>@drawable/bg2</item>
+        <item>@drawable/bg_home</item>
+        <item>@drawable/bg_ts</item>
+        <item>@drawable/bg_3</item>
+        <item>@drawable/bg_4</item>
+        <item>@drawable/bg_5</item>
+        <item>@drawable/bg_6</item>
+        <item>@drawable/bg_8</item>
+        <item>@drawable/bg_9</item>
+        <item>@drawable/bg_ts</item>
+    </array>
+
+</resources>
